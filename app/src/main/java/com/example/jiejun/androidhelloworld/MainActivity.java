@@ -19,11 +19,9 @@ public class MainActivity extends AppCompatActivity {
         Button btn=(Button)findViewById(R.id.leftButton);
         Toast.makeText(this, "Left Button Clicked",Toast.LENGTH_SHORT).show();
     }
-    
+
     public void rightBtnClick(View view) {
         Button btn=(Button)findViewById(R.id.rightButton);
-
-
         Toast.makeText(this, "Right Button Clicked",Toast.LENGTH_SHORT).show();
     }
 }
